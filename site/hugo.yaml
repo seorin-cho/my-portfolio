@@ -823,7 +823,7 @@ params:
       enable: true
       disableFeaturedImage: false
     socialNetworks:
-      github: https://github.com
+      github: https://github.com/seorin-cho
       linkedin: https://linkedin.com
       twitter: https://twitter.com
       instagram: https://instagram.com
