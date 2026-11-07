@@ -565,7 +565,7 @@ params:
     intro: "안녕하세요"
     title: "Seorin"
     subtitle: "저의 학습과 활동을 소개합니다."
-    content: "이곳에 관심 분야와 현재 배우고 있는 내용을 적어 주세요."
+    content: "I am learning web development by building a personal portfolio with Hugo and GitHub Pages. I use GitHub to track changes and browser developer tools to test my website."
     image: /images/hero.svg
     bottomImage:
       enable: true
