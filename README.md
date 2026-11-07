@@ -1,3 +1,112 @@
+# Seorin's Portfolio
+
+Personal portfolio built with Hugo Profile and deployed to GitHub Pages.
+
+- Website: https://seorin-cho.github.io/my-portfolio/
+- Repository: https://github.com/seorin-cho/my-portfolio
+
+## Build environment
+
+The deployment workflow installs the following tools:
+
+| Tool | Version |
+|---|---|
+| Runner | ubuntu-latest |
+| Python | 3.12 |
+| Node.js | 24 |
+| Go | 1.27.1 |
+| Hugo Extended | 0.143.0 |
+| Dart Sass | 1.105.0 |
+| Preparation script | 3.1 |
+
+Python, Node.js, and Go are installed by the setup actions.
+Hugo Extended and Dart Sass are downloaded and extracted
+in the Install Hugo and Sass step.
+
+Workflow: [.github/workflows/hugo-pages.yml](.github/workflows/hugo-pages.yml)
+
+## Reproduce the build with GitHub Actions
+
+This procedure requires permission to run workflows in the repository.
+
+1. Open the repository on GitHub.
+2. Select Actions, then Deploy Hugo to GitHub Pages.
+3. Select Run workflow and choose main.
+4. Start the workflow.
+5. Confirm that build and deploy succeed.
+6. Open the website and check the result.
+
+This workflow builds and deploys the selected version.
+A push to main also triggers it automatically.
+
+For a separate repository, enable Actions and select:
+Settings → Pages → Build and deployment → Source → GitHub Actions.
+
+## Build commands and files
+
+After installing the tools above, the workflow runs these commands
+from the repository root on the Linux runner:
+
+```bash
+python .github/pages_build.py --dependencies
+python .github/pages_build.py --build
+```
+
+Python alone is not sufficient to run the build.
+The workflow supplies SITE_BASE_URL using actions/configure-pages.
+
+- Main configuration: site/hugo.yaml
+- Additional deployment configuration: site/pages.json
+- Build configuration selection: .github-pages.json
+- Page content: site/content/
+- Images and static files: site/static/
+- Theme: site/themes/template/
+- Build output: public/
+
+## Update and redeploy
+
+Edit site/hugo.yaml for the homepage, menus, and project descriptions.
+Edit site/content/ for page content.
+Add images and static files under site/static/.
+
+From the repository root, review the changes:
+
+```powershell
+git status
+git diff
+```
+
+For a homepage configuration change:
+
+```powershell
+git add site/hugo.yaml
+git commit -m "Update homepage content"
+git push origin main
+```
+
+Stage the actual changed paths if editing other files.
+
+After pushing:
+
+1. Open Actions and select the run for the new commit.
+2. Confirm that build and deploy succeed.
+3. Open https://seorin-cho.github.io/my-portfolio/
+4. Refresh and check that the intended changes appear.
+
+## Theme attribution
+
+Theme: Hugo Profile by gurusabarish.
+Source: https://github.com/gurusabarish/hugo-profile
+License: MIT. See LICENSE.
+
+The original theme documentation is retained below.
+Its generic setup instructions are separate from this project's
+prepared site/ structure and GitHub Pages workflow.
+
+---
+
+## Original theme documentation
+
 # Hugo Profile
 
 [![Twitter](https://img.shields.io/twitter/url?label=Tweet&style=social&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile)](https://twitter.com/intent/tweet?text=Wow:&url=https%3A%2F%2Fgithub.com%2Fgurusabarish%2Fhugo-profile) [![GitHub forks](https://img.shields.io/github/forks/gurusabarish/hugo-profile?style=plastic)](https://github.com/gurusabarish/hugo-profile/network) [![GitHub stars](https://img.shields.io/github/stars/gurusabarish/hugo-profile?style=plastic)](https://github.com/gurusabarish/hugo-profile/stargazers)
