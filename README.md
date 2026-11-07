@@ -95,6 +95,30 @@ After pushing:
 
 ## Theme attribution
 
+### Preserved license notices
+
+- LICENSE: MIT license notice for Hugo Profile.
+- site/themes/template/LICENSE: MIT, copyright GURU SABARISH.
+- site/LICENSE: Apache License 2.0 notice supplied with the sample site.
+- exampleSite/LICENSE: Apache License 2.0 notice supplied with the sample site.
+
+These notices are retained in their original locations.
+
+## Content and asset sources
+
+- Theme: Hugo Profile by gurusabarish.
+  Source: https://github.com/gurusabarish/hugo-profile
+  The original MIT license and copyright notice are preserved.
+
+- Images: Supplied with the downloaded Hugo Profile theme.
+  I have not added or replaced the image files.
+  Image-specific credits and usage terms have not yet been verified.
+
+- Personal introduction: Adapted from AI-assisted drafts
+  and reviewed and edited by me.
+
+- Configuration changes: Made by me with AI guidance.
+
 Theme: Hugo Profile by gurusabarish.
 Source: https://github.com/gurusabarish/hugo-profile
 License: MIT. See LICENSE.
