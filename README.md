@@ -97,6 +97,34 @@ After pushing:
 
 ### Invalid URL recovery
 
+### Keyboard navigation and accessible controls
+
+Checks performed:
+- The homepage GitHub link has an accessible name:
+  "Open Seorin's GitHub profile".
+- The footer GitHub link has the accessible name "github".
+- The mobile menu button has the name "Toggle navigation".
+- The theme button has the name "Toggle dark mode".
+- The theme button shows a visible outline during keyboard focus.
+- The Skip to main content link becomes visible on keyboard focus.
+- Activating the skip link moves to the main content, and subsequent
+  Tab navigation continues through the content links.
+
+### Reduced motion
+
+The homepage stylesheet includes a
+prefers-reduced-motion: reduce rule.
+
+With reduced motion emulated in browser developer tools,
+the page was reloaded and checked for reduced animation
+and continued access to its content and controls.
+
+### Verification limits
+
+These are manual checks in the browser used during development.
+They do not constitute a complete screen-reader or
+cross-browser accessibility audit.
+
 Test URL:
 https://seorin-cho.github.io/my-portfolio/not-found-check/
 
