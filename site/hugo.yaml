@@ -588,8 +588,7 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am learning web development by building and improving my own website. I am interested in understanding how web pages are structured and how they work.
-
+      I am interested in web development because I enjoy seeing changes to my code and settings appear on a working website. Building this portfolio has made me curious about how page structure, visual design, and deployment work together.
       I use Hugo to organize my site, Git and GitHub to track changes, and GitHub Actions and GitHub Pages to build and deploy it automatically. I also use browser developer tools to check how CSS, JavaScript, and images load.
 
       My next goal is to learn the fundamentals of HTML and CSS so I can customize the theme myself. I plan to complete my portfolio content, test the mobile layout and keyboard navigation, and improve the issues I find.
