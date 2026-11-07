@@ -27,8 +27,9 @@
     color: var(--text-secondary-color) !important;
 }
 
-#theme-toggle:focus {
-    outline: 0;
+#theme-toggle:focus-visible {
+    outline: 3px solid var(--text-color);
+    outline-offset: 4px;
 }
 
 #theme-toggle svg {
