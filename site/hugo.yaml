@@ -321,7 +321,18 @@ params:
     title: "My Activities"
     items:
       - title: "Personal Portfolio Website"
-        content: "Period: November 2026–Present. Status: In progress. My goal is to publish a portfolio that introduces me and my learning activities, and to learn how changes are tracked, automatically built, and deployed. An individual coursework project using Hugo and GitHub Pages. I edited the theme configuration and introduction, corrected GitHub links, removed unused social links, and tested deployment and website behavior with AI guidance. I first configured the theme, then deployed the site, checked its pages and links, and improved the issues I found. I chose an existing Hugo theme so I could focus on learning configuration, version control, and deployment before building a layout from scratch. The current result is a publicly accessible portfolio website and its GitHub repository. The website presents my introduction and activity, while the repository contains the configuration, content, deployment workflow, and revision history. I learned that saving a local file does not update the published website; I need to commit and push the changes, check the deployment, and verify the live result. I still rely on the theme for layout, so my next step is to learn responsive CSS, improve one section myself, and test it at different screen widths."
+        content: |-
+          **Period and status:** November 2026–Present. In progress.
+
+          **Purpose:** Build a public portfolio introducing myself and my learning activities, and learn version control and automated deployment.
+
+          **My contribution:** This is an individual coursework project. With AI guidance, I configured the theme, wrote my introduction, corrected links, and tested the published site.
+
+          **Process and choice:** I configured the theme, deployed the site, checked its behavior, and improved the issues I found. I chose Hugo Profile to focus on configuration and deployment while learning web development.
+
+          **Results:** A public portfolio website and GitHub repository containing the configuration, content, deployment workflow, and revision history.
+
+          **Learning and next steps:** I learned that local changes require commit, push, deployment, and live verification. Next, I will learn responsive CSS and use it to improve and test one section at different screen widths.
         featured:
           name: "View Repository"
           link: "https://github.com/seorin-cho/my-portfolio"
