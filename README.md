@@ -93,6 +93,21 @@ After pushing:
 3. Open https://seorin-cho.github.io/my-portfolio/
 4. Refresh and check that the intended changes appear.
 
+## Verified behavior
+
+### Invalid URL recovery
+
+Test URL:
+https://seorin-cho.github.io/my-portfolio/not-found-check/
+
+Checks performed:
+- An unknown URL displays the Page not found screen.
+- The screen includes an explanation and a Return to portfolio link.
+- Clicking the link returns to /my-portfolio/.
+- The link can be selected with Tab and activated with Enter.
+
+Result: Passed.
+
 ## Theme attribution
 
 ### Preserved license notices
