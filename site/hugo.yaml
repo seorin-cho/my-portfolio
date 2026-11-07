@@ -553,7 +553,7 @@ params:
     enableSeparator: false
     menus:
       disableAbout: false
-      disableExperience: false
+      disableExperience: true
       disableEducation: true
       disableProjects: false
       disableAchievements: true
@@ -605,7 +605,7 @@ params:
 
   # Experience
   experience:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - company: "Facebook"
