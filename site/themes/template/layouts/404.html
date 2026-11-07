@@ -10,5 +10,9 @@
 <div class="container py-5 text-center">
     <img src="{{ (printf "%s404.png" (.Site.Params.staticPath | default "")) | relURL }}" alt='{{ .Site.Params.terms.pageNotFound | default (i18n "page_not_found") }}' class="img-fluid" width="40%">
     <h1>{{ .Site.Params.terms.pageNotFound | default (i18n "page_not_found") }}</h1>
+    <p>The requested page could not be found. Please check the address or return to the portfolio homepage.</p>
+    <a class="btn btn-primary" href="{{ "" | relLangURL }}">
+        Return to portfolio
+    </a>
 </div>
 {{ end }}
