@@ -334,8 +334,11 @@ params:
 
           **Learning and next steps:** I learned that local changes require commit, push, deployment, and live verification. Next, I will learn responsive CSS and use it to improve and test one section at different screen widths.
         featured:
-          name: "View Repository"
-          link: "https://github.com/seorin-cho/my-portfolio"
+          name: "View Website"
+          link: "https://seorin-cho.github.io/my-portfolio/"
+        links:
+          - icon: fab fa-github
+            url: "https://github.com/seorin-cho/my-portfolio"
         badges:
           - "Hugo"
           - "GitHub Pages"
