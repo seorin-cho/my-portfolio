@@ -110,9 +110,18 @@ These notices are retained in their original locations.
   Source: https://github.com/gurusabarish/hugo-profile
   The original MIT license and copyright notice are preserved.
 
-- Images: Supplied with the downloaded Hugo Profile theme.
-  I have not added or replaced the image files.
-  Image-specific credits and usage terms have not yet been verified.
+### Images used on the website
+
+| File | Usage | Source |
+|---|---|---|
+| site/static/images/hero.svg | Homepage avatar | Included in the downloaded Hugo Profile theme |
+| site/static/images/me.png | About Me avatar | Included in the downloaded Hugo Profile theme |
+
+Theme source: https://github.com/gurusabarish/hugo-profile
+
+These images were not created or modified by me.
+The theme's original license notices are preserved.
+Separate image-specific authorship and usage terms have not been confirmed.
 
 - Personal introduction: Adapted from AI-assisted drafts
   and reviewed and edited by me.
