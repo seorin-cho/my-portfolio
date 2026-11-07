@@ -16,13 +16,14 @@
 </head>
 
 <body class="light">
+    <a class="skip-link" href="#content">Skip to main content</a>
   <!-- javascripts -->
   <!-- <script src="/js/jquery-3.6.0.min.js"></script> -->
 
   {{- partial "sections/header.html" . -}}
-  <div id="content">
+    <main id="content" tabindex="-1">
     {{- block "main" . }}{{- end }}
-  </div>
+  </main>
   {{- partial "sections/footer/index.html" . -}}
 
   {{- if (or (eq .Site.Params.UseBootstrapCDN true) (eq .Site.Params.UseBootstrapCDN "js")) -}}
