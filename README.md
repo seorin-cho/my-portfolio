@@ -107,6 +107,22 @@ Checks performed:
 - The link can be selected with Tab and activated with Enter.
 
 Result: Passed.
+## Site content map
+
+| Content | Public location | Source setting |
+|---|---|---|
+| Name and short introduction | Homepage | params.hero |
+| Interests and reasons | /#about | params.about.content |
+| Learning goals and next actions | /#about | params.about.content |
+| Tools and practical use | /#about | params.about.content and skills |
+| Activity period and status | /#projects | params.projects.items |
+| Purpose and personal contribution | /#projects | params.projects.items |
+| Process and choice of tools | /#projects | params.projects.items |
+| Results and source repository | /#projects | params.projects.items |
+| Learning outcomes and next improvements | /#projects | params.projects.items |
+
+All settings above are in site/hugo.yaml.
+The activity menu is labelled My Activities.
 
 ## Theme attribution
 
