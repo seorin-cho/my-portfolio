@@ -152,7 +152,7 @@ params:
     title: "Seorin"
     subtitle: "저의 학습과 활동을 소개합니다."
     content: "I am learning web development by building a personal portfolio with Hugo and GitHub Pages. I use GitHub to track changes and browser developer tools to test my website."
-    image: /images/hero.svg
+    image: ""
     bottomImage:
       enable: true
     # roundImage: true # Make hero image circular | default false
@@ -172,7 +172,7 @@ params:
   about:
     enable: true
     title: "About Me"
-    image: "/images/me.png"
+    image: ""
     content: |-
       I am interested in web development because I enjoy seeing changes to my code and settings appear on a working website. Building this portfolio has made me curious about how page structure, visual design, and deployment work together.
       I use Hugo to organize my site, Git and GitHub to track changes, and GitHub Actions and GitHub Pages to build and deploy it automatically. I also use browser developer tools to check how CSS, JavaScript, and images load.
