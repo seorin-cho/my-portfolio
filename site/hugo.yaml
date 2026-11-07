@@ -754,7 +754,7 @@ params:
     title: "My Activities"
     items:
       - title: "Personal Portfolio Website"
-        content: "Period: November 2026–Present. Status: In progress. An individual coursework project using Hugo and GitHub Pages. I edited the theme configuration and introduction, corrected GitHub links, removed unused social links, and tested deployment and website behavior with AI guidance."
+        content: "Period: November 2026–Present. Status: In progress. My goal is to publish a portfolio that introduces me and my learning activities, and to learn how changes are tracked, automatically built, and deployed. An individual coursework project using Hugo and GitHub Pages. I edited the theme configuration and introduction, corrected GitHub links, removed unused social links, and tested deployment and website behavior with AI guidance."
         featured:
           name: "View Repository"
           link: "https://github.com/seorin-cho/my-portfolio"
