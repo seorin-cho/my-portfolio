@@ -588,19 +588,21 @@ params:
     title: "About Me"
     image: "/images/me.png"
     content: |-
-      I am a software developer with a passion for web development. I have a background in computer science and mathematics, and I have a strong interest in the intersection of technology and art. I am currently working as a software developer at [example org.](https://example.com) in San Francisco, CA.
+      I am learning web development by building and improving my own website. I am interested in understanding how web pages are structured and how they work.
 
-      I am currently working on a project that will be used to help people find the best way to get around the city.
+      I use Hugo to organize my site, Git and GitHub to track changes, and GitHub Actions and GitHub Pages to build and deploy it automatically. I also use browser developer tools to check how CSS, JavaScript, and images load.
+
+      My next goal is to learn the fundamentals of HTML and CSS so I can customize the theme myself. I plan to complete my portfolio content, test the mobile layout and keyboard navigation, and improve the issues I find.
     skills:
       enable: true
-      title: "Here are a few technologies I've been working with recently:"
+      title: "Tools I am learning and using:"
       items:
-        - "HTML"
-        - "CSS"
-        - "JavaScript"
-        - "React"
-        - "Node"
-        - "Express"
+        - "Hugo"
+        - "Git"
+        - "GitHub"
+        - "GitHub Actions"
+        - "GitHub Pages"
+        - "Browser Developer Tools"
 
   # Experience
   experience:
