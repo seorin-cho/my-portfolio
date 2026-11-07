@@ -334,6 +334,7 @@ params:
 
           **Learning and next steps:** I learned that local changes require commit, push, deployment, and live verification. Next, I will learn responsive CSS and use it to improve and test one section at different screen widths.
           **Current scope:** This is a static portfolio website. It provides my introduction, a learning activity summary, and links to the published website and source repository. It does not collect visitor information through a contact form or provide account registration.
+          **Problem-solving example:** While adding an accessible name to the GitHub link, I accidentally duplicated an HTML link tag and the Hugo build failed. I used the Actions error log to locate the affected template, removed the duplicate markup, and verified a successful deployment. I then inspected the published link to confirm its accessible name and destination.
         featured:
           name: "View Website"
           link: "https://seorin-cho.github.io/my-portfolio/"
