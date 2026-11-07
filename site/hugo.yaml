@@ -728,7 +728,7 @@ params:
 
   # Achievements
   achievements:
-    enable: true
+    enable: false
     # title: "Custom Name"
     items:
       - title: Google kickstart runner
@@ -783,7 +783,7 @@ params:
       count: 3
       title: Recent Posts
       enable: true
-      disableFeaturedImage: false
+      disableFeaturedImage: true
     socialNetworks:
       github: https://github.com/seorin-cho
       
