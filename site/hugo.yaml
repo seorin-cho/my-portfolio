@@ -554,9 +554,9 @@ params:
     menus:
       disableAbout: false
       disableExperience: false
-      disableEducation: false
+      disableEducation: true
       disableProjects: false
-      disableAchievements: false
+      disableAchievements: true
       disableContact: false
 
   # Hero
@@ -685,7 +685,7 @@ params:
 
   # Education
   education:
-    enable: true
+    enable: false
     # title: "Custom Name"
     index: false
     items:
@@ -783,7 +783,7 @@ params:
       count: 3
       title: Recent Posts
       enable: true
-      disableFeaturedImage: true
+      disableFeaturedImage: false
     socialNetworks:
       github: https://github.com/seorin-cho
       
