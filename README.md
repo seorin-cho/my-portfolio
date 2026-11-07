@@ -137,6 +137,24 @@ These notices are retained in their original locations.
 
 ## Content and asset sources
 
+### Icons and fonts
+
+- Font Awesome Free 6.4.2:
+  Used for the homepage and activity GitHub icons.
+  Source: https://fontawesome.com
+  License reference: https://fontawesome.com/license/free
+  The bundled file identifies icon licensing as CC BY 4.0,
+  font licensing as SIL OFL 1.1, and code licensing as MIT.
+  Its original copyright and license header are preserved in
+  site/themes/template/static/fontawesome-6/all-6.4.2.js.
+
+- Google Fonts:
+  The theme requests Alata, Lora, and Roboto through Google Fonts.
+  Font declarations are in
+  site/themes/template/layouts/partials/head.html and
+  site/themes/template/static/css/font.css.
+  Catalog: https://fonts.google.com/
+
 - Theme: Hugo Profile by gurusabarish.
   Source: https://github.com/gurusabarish/hugo-profile
   The original MIT license and copyright notice are preserved.
